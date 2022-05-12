@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050717"
+    tools:context=".TelaSobre">
+
+    <Button
+        android:id="@+id/voltarButtonSobre"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF9800"
+        android:text="@string/voltar"
+        android:textColor="#050717"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/credText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/SOBRE"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/nomeDev1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Bruno de Abreu"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoText" />
+
+    <ImageView
+        android:id="@+id/dev3img"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/avatar_user_foreground" />
+
+    <TextView
+        android:id="@+id/textDev1"
+        android:layout_width="279dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="24dp"
+        android:text="linkedin.com/in/brunoabreusz/ Estudante de Sistemas de Informação"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/dev1img"
+        app:layout_constraintTop_toBottomOf="@+id/nomeDev1Text" />
+
+    <TextView
+        android:id="@+id/textDev2"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="56dp"
+        android:text="linkedin.com/in/carlos-olympio/ Estudante de Sistemas de Informação"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textDev3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toEndOf="@+id/dev2img" />
+
+    <TextView
+        android:id="@+id/nomeDev3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Ricardo Motta"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textDev3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDev2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textDev3"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="24dp"
+        android:text="linkedin.com/in/ricardo-m-motta/ Estudante de Sistema de Informação"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/voltarButtonSobre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/dev3img" />
+
+    <ImageView
+        android:id="@+id/dev2img"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev3img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/avatar_user_foreground" />
+
+    <TextView
+        android:id="@+id/nomeDev2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="Carlos Olympio"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textDev2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDev1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/dev1img"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/dev2img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@mipmap/avatar_user_foreground" />
+
+    <EditText
+        android:id="@+id/infoText"
+        android:layout_width="373dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:fontFamily="@font/audiowide"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="FisicFacs é um aplicativo voltado para fins acadêmicos. Ele tem proposta promover o bem estar através de monitoramento de exercício fisico. fazendo uso das informações fornecidas pelo usuario.                                Desenvolvido na IDE Android Studio utilizando Java. [Pixel 5 API 29] "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/dev1img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credText"
+        app:layout_constraintVertical_bias="0.016" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

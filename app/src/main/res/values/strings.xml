@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FisicFacs</string>
+    <string name="login">Login</string>
+    <string name="opcoes">Options</string>
+    <string name="sobre">About</string>
+    <string name="fisicfacs">FisicFacs</string>
+    <string name="monitorar_exerc_cios">Monitor Exercise</string>
+    <string name="hist_rico">Historic</string>
+    <string name="seja_bem_vindo_ao">Welcome to</string>
+    <string name="academia">Academy</string>
+    <string name="perfil">Profile</string>
+    <string name="sexo">Sex</string>
+    <string name="meu_perfil">My Profile</string>
+    <string name="peso">Weight</string>
+    <string name="altura">Width</string>
+    <string name="data_de_nascimento">Birth date</string>
+    <string name="voltar">BACK</string>
+    <string name="nome">Name</string>
+    <string name="logo">logo</string>
+    <string name="salvar">Save</string>
+    <string name="userimg">userimg</string>
+    <string name="configuracoes">Setting</string>
+    <string name="unidade_de_velocidade">Speed unit</string>
+    <string name="tipo_de_exerc_cio">Type of exercise</string>
+    <string name="orienta_o_do_mapa">Map orientation</string>
+    <string name="tipo_do_mapa">Map type</string>
+    <string name="Perfil">Profile</string>
+    <string name="SOBRE">ABOUT</string>
+
+</resources>
